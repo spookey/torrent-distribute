@@ -11,11 +11,11 @@ settings = {
         'http://tracker.openbittorrent.com:80/announce',
         'udp://tracker.publicbt.com:80/announce',
         'http://tracker.publicbt.com:80/announce',
-        'udp://tracker.ccc.de/announce',
+        'http://tracker.ccc.de/announce',
+        'udp://tracker.ccc.de:80/announce',
     ],
     'webseeds': [
-        'http://images.freifunk.lacerta.uberspace.de/',
-        'http://download.crazyhaze.de/ffmz/',
+        'http://webseed.example.com/',
     ],
 }
 
