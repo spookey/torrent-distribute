@@ -1,0 +1,15 @@
+{
+  "comment": "config example",
+  "trackers": [
+    "udp://tracker.openbittorrent.com:80/announce",
+    "http://tracker.openbittorrent.com:80/announce",
+    "udp://tracker.publicbt.com:80/announce",
+    "http://tracker.publicbt.com:80/announce",
+    "http://tracker.ccc.de/announce",
+    "udp://tracker.ccc.de:80/announce"
+  ],
+  "mktorrent": "/usr/local/bin/mktorrent",
+  "webseeds": [
+    "http://seed.example.com/"
+  ]
+}
