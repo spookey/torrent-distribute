@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2.7
 # -.- coding: utf-8 -.-
 
 from argparse import ArgumentParser
@@ -42,7 +42,7 @@ def main():
             print('magnet link: %s' %(get_magnet(output)))
 
     else:
-        print('Error: Could not read from config file %s. Does it exist?' %(configfile))
+        print('Error: Could not read from config file %s. Does it exist? Is the json valid?' %(configfile))
 
 if __name__ == '__main__':
     main()

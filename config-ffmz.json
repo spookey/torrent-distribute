@@ -1,0 +1,13 @@
+{
+  "comment": "Freifunk Mainz Router Images",
+  "trackers": [
+    "udp://tracker.openbittorrent.com:80/announce",
+    "udp://tracker.publicbt.com:80/announce"
+  ],
+  "mktorrent": "mktorrent",
+  "webseeds": [
+    "http://images.freifunk-mainz.de/",
+    "http://mirror.freifunk-wiesbaden.de/",
+    "http://download.crazyhaze.de/ffmz/"
+  ]
+}

@@ -1,10 +1,10 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2.7
 # -.- coding: utf-8 -.-
 
 from helpers import write_json, configfile
 
 settings = {
-    'mktorrent': '/usr/bin/mktorrent',
+    'mktorrent': 'mktorrent',
     'comment': 'your mom',
     'trackers': [
         'udp://tracker.openbittorrent.com:80/announce',
