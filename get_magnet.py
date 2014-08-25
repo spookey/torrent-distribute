@@ -7,6 +7,7 @@ from bencode import bencode, bdecode
 from hashlib import sha1
 from base64 import b32encode
 from helpers import read_file, write_file, write_json
+from datetime import datetime
 
 def get_magnet(torrentfile):
     metadata = bdecode(read_file(torrentfile))
@@ -20,7 +21,7 @@ def get_html(mdict):
         result += '\t\t<li>\n\t\t\t<a href="%s">%s</a>\n\t\t</li>\n' %(mdict[magnet], magnet)
         print(magnet)
         print(mdict[magnet])
-    result += '\t</ul>\n</p>\n'
+    result += '\t</ul>\n</p><p>last update: %s</p>\n' %(datetime.strftime(datetime.now(), '%d.%m.%y-%H:%M'))
     return result
 
 def parser():
